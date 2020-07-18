@@ -87,7 +87,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Container(
-            child: _search != null || _search.length > 1
+            child: _search != null 
                 ? RaisedButton(
                     color: Colors.grey[700],
                     onPressed: () {
